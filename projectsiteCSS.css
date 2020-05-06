@@ -30,27 +30,27 @@ header {
 }
 
 p {
-    font-weight:bold;
+    font-weight: bold;
     line-height: 2em;
     margin-left: 5%;
     margin-right: 5%;
 }
 
-p em{
-    font-weight:bold;
+p em {
+    font-weight: bold;
     font-size: 1.10em;
     line-height: 2em;
     margin-left: 5%;
     margin-right: 5%;
 }
 
-li em{
-    font-weight:bold;
+li em {
+    font-weight: bold;
     font-size: 1.10em;
 }
 
 li {
-    font-weight:bold;
+    font-weight: bold;
     font-size: 1.75em;
 }
 
@@ -76,20 +76,10 @@ div.decklist {
     padding-top: 2em;
 }
 
-/*div.mulCreatureList1 {
-    text-align: left;
-}
-
-div.mulCreatureList2{
-    text-align: right;
-}*/
-
-
 a {
     font-family: Garamond, Didot, Georgia, 'Times New Roman', Times, serif !important;
     font-size: 1.1em;
 }
-
 
 h2, h3 {
     color: black;
@@ -101,6 +91,15 @@ h2, h3 {
     text-align: center;
 }
 
+ul.mulCreature1 {
+    display: flex;
+    align-items: left;
+}
+
+ul.mulCreature2 {
+    display: flex;
+    align-items: right;
+}
 
 ul li {
     font-family: Garamond, Didot, Georgia, 'Times New Roman', Times, serif;
@@ -109,17 +108,19 @@ ul li {
     line-height: 1.3;
 }
 
-@media (min-width: 750px) { /* only do this if the viewport is large enough*/
-    ul li.float { /* float specified list elements */
+@media (min-width: 750px) {
+    /* only do this if the viewport is large enough*/
+    ul li.float {
+        /* float specified list elements */
         float: left;
-        width: 20%; /*need to specify width when floating text content*/
+        width: 20%;
+        /*need to specify width when floating text content*/
         margin-right: 2em;
         padding: 0.3em;
     }
-    
-    }
+}
 
-    /*.button{
+/*.button{
         display:flex;
         margin-left: 10%;
         margin-right: 10%;
