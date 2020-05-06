@@ -53,6 +53,17 @@ li {
     font-weight: bold;
     font-size: 1.75em;
 }
+  
+
+div#commander{
+    text-align: center;
+    display: inline-block;
+}
+
+div#creatureList{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 div.nav {
     width: 30%;
@@ -91,15 +102,6 @@ h2, h3 {
     text-align: center;
 }
 
-ul.mulCreature1 {
-    display: flex;
-    align-items: left;
-}
-
-ul.mulCreature2 {
-    display: flex;
-    align-items: right;
-}
 
 ul li {
     font-family: Garamond, Didot, Georgia, 'Times New Roman', Times, serif;
