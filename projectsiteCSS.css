@@ -29,8 +29,29 @@ header {
     background-color: wheat;
 }
 
-p strong{
+p {
     font-weight:bold;
+    line-height: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+p em{
+    font-weight:bold;
+    font-size: 1.10em;
+    line-height: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+li em{
+    font-weight:bold;
+    font-size: 1.10em;
+}
+
+li {
+    font-weight:bold;
+    font-size: 1.75em;
 }
 
 div.nav {
@@ -46,6 +67,7 @@ div.nav a {
 }
 
 div.decklist {
+    font-size: 2em;
     display: flex;
     height: 1em;
     justify-content: center;
