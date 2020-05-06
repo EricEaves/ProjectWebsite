@@ -55,12 +55,32 @@ li {
 }
   
 
-div#commander{
+/*div#commander{
     text-align: center;
     display: inline-block;
-}
+}*/
 
 div#creatureList{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div#artEnch{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div#intSorc{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div#pW{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div#lands{
     display: flex;
     justify-content: space-evenly;
 }
