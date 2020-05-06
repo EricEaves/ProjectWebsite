@@ -29,6 +29,10 @@ header {
     background-color: wheat;
 }
 
+p strong{
+    font-weight:bold;
+}
+
 div.nav {
     width: 30%;
     text-align: center;
@@ -41,13 +45,22 @@ div.nav a {
     font-family: "Gill Sans", "Gill Sans MT", sans-serif !important;
 }
 
-div.mulCreatureList1 {
+div.decklist {
+    display: flex;
+    height: 1em;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+/*div.mulCreatureList1 {
     text-align: left;
 }
 
 div.mulCreatureList2{
     text-align: right;
-}
+}*/
 
 
 a {
@@ -83,3 +96,9 @@ ul li {
     }
     
     }
+
+    /*.button{
+        display:flex;
+        margin-left: 10%;
+        margin-right: 10%;
+    }*/
