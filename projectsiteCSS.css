@@ -1,6 +1,6 @@
 body {
     color: black;
-    background-color: papayawhip;
+    background-color: rgb(255, 247, 235);
     font-family: Garamond, Didot, Georgia, 'Times New Roman', Times, serif;
     font-size: 1.75em;
     margin-left: 5%;
@@ -56,8 +56,8 @@ li {
   
 
 div#commander{
-    margin-left:39%;
-    margin-right:35%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 div#creatureList{
