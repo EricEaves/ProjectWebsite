@@ -55,10 +55,10 @@ li {
 }
   
 
-/*div#commander{
-    text-align: center;
-    display: inline-block;
-}*/
+div#commander{
+    margin-left:39%;
+    margin-right:35%;
+}
 
 div#creatureList{
     display: flex;
@@ -142,8 +142,10 @@ ul li {
     }
 }
 
-/*.button{
+button{
+        
         display:flex;
-        margin-left: 10%;
-        margin-right: 10%;
-    }*/
+        margin-left: 45%;
+        margin-right: 45%;
+        margin-top: 5%;
+    }
