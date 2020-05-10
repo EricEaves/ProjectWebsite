@@ -129,8 +129,39 @@ div#gt {
 }
 /*end left side creatures Muldrotha*/
 /*start left side artEnch Muldrotha*/
+div#aotpMul {
+    visibility: hidden;
+    position: absolute;
+    top: 1650px;
+}
+
+div#cara {
+    visibility: hidden;
+    position: absolute;
+    top: 1700px;
+}
+
+div#cl {
+    visibility: hidden;
+    position: absolute;
+    top: 1775px;
+}
+
+div#dv {
+    visibility: hidden;
+    position: absolute;
+    top: 1825px;
+}
+
+div#eaMul {
+    visibility: hidden;
+    position: absolute;
+    top: 1875px;
+}
 
 
+
+/*end left side artEnch Muldrotha*/
 
 
 
