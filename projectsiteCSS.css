@@ -9,8 +9,6 @@ body {
     padding: 1em;
 }
 
-
-
 header {
     display: flex;
     height: 5em;
@@ -44,125 +42,124 @@ li {
     font-size: 1.75em;
 }
 
-
-/* start of image info*/
-div#muldrotha{
+/*start left side creatures Muldrotha*/
+div#muldrotha {
     visibility: hidden;
     position: absolute;
     top: 375px;
     left: 1250px;
-    
 }
 
-div#aot{
+div#aot {
     visibility: hidden;
     position: absolute;
     top: 650px;
 }
 
-div#blightb{
+div#blightb {
     visibility: hidden;
     position: absolute;
     top: 725px;
 }
 
-div#burnh{
+div#burnh {
     visibility: hidden;
     position: absolute;
     top: 800px;
 }
 
-div#bom{
+div#bom {
     visibility: hidden;
     position: absolute;
     top: 850px;
 }
 
-div#calla{
+div#calla {
     visibility: hidden;
     position: absolute;
     top: 875px;
 }
 
-div#cc{
+div#cc {
     visibility: hidden;
     position: absolute;
     top: 975px;
 }
 
-div#dte{
+div#dte {
     visibility: hidden;
     position: absolute;
     top: 1025px;
 }
 
-div#dmgm{
+div#dmgm {
     visibility: hidden;
     position: absolute;
     top: 1075px;
 }
 
-div#er{
+div#er {
     visibility: hidden;
     position: absolute;
     top: 1125px;
 }
 
-div#fhe{
+div#fhe {
     visibility: hidden;
     position: absolute;
     top: 1185px;
 }
 
-div#gll{
+div#gll {
     visibility: hidden;
     position: absolute;
     top: 1250px;
 }
 
-div#gmoa{
+div#gmoa {
     visibility: hidden;
     position: absolute;
     top: 1275px;
 }
 
-div#gt{
+div#gt {
     visibility: hidden;
     position: absolute;
     top: 1375px;
 }
+/*end left side creatures Muldrotha*/
+/*start left side artEnch Muldrotha*/
 
 
 
-/* end of image info*/
 
 
-div#commander{
+div#commander {
     display: flex;
     justify-content: space-evenly;
 }
 
-div#creatureList{
+div#creatureList {
     display: flex;
     justify-content: space-evenly;
 }
 
-div#artEnch{
+div#artEnch {
     display: flex;
     justify-content: space-evenly;
 }
 
-div#intSorc{
+div#intSorc {
     display: flex;
     justify-content: space-evenly;
 }
 
-div#pW{
+div#pW {
     display: flex;
     justify-content: space-evenly;
 }
 
-div#lands{
+div#lands {
     display: flex;
     justify-content: space-evenly;
 }
@@ -204,7 +201,6 @@ h2, h3 {
     text-align: center;
 }
 
-
 ul li {
     font-family: Garamond, Didot, Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
@@ -212,11 +208,8 @@ ul li {
     line-height: 1.3;
 }
 
-
-
-button{
-        
-    display:flex;
+button {
+    display: flex;
     margin-left: 45%;
     margin-right: 45%;
     margin-top: 5%;
@@ -245,4 +238,3 @@ button{
         padding: 0.3em;
     }
 }
-
