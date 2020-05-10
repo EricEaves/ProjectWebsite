@@ -141,5 +141,16 @@ function gmoaOff(){
     gmoaImgDiv.style.visibility = "hidden";
 }
 
+gtImgDiv = document.getElementById("gt");
+gtLi = document.getElementById("gtText");
+gtLi.addEventListener("mouseover", gtOver);
+gtLi.addEventListener("mouseout", gtOff);
+function gtOver(){
+    gtImgDiv.style.visibility = "visible";   
+}
+function gtOff(){
+    gtImgDiv.style.visibility = "hidden";
+}
+
 
 

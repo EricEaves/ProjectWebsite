@@ -45,7 +45,7 @@ li {
 }
 
 
-
+/* start of image info*/
 div#muldrotha{
     visibility: hidden;
     position: absolute;
@@ -125,6 +125,17 @@ div#gmoa{
     position: absolute;
     top: 1275px;
 }
+
+div#gt{
+    visibility: hidden;
+    position: absolute;
+    top: 1375px;
+}
+
+
+
+/* end of image info*/
+
 
 div#commander{
     display: flex;
