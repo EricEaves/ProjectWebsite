@@ -345,6 +345,76 @@ div#ph {
     right:150px;
 }
 
+div#sw {
+    visibility: hidden;
+    position: absolute;
+    top: 775px;
+    right:150px;
+}
+
+div#sf {
+    visibility: hidden;
+    position: absolute;
+    top: 850px;
+    right:150px;
+}
+
+div#tbd {
+    visibility: hidden;
+    position: absolute;
+    top: 900px;
+    right:150px;
+}
+
+div#tdd {
+    visibility: hidden;
+    position: absolute;
+    top: 925px;
+    right:150px;
+}
+
+div#tss {
+    visibility: hidden;
+    position: absolute;
+    top: 975px;
+    right:150px;
+}
+
+div#tcd {
+    visibility: hidden;
+    position: absolute;
+    top: 1025px;
+    right:150px;
+}
+
+div#we {
+    visibility: hidden;
+    position: absolute;
+    top: 1125px;
+    right:150px;
+}
+
+div#ws {
+    visibility: hidden;
+    position: absolute;
+    top: 1175px;
+    right:150px;
+}
+
+div#ytd {
+    visibility: hidden;
+    position: absolute;
+    top: 1225px;
+    right:150px;
+}
+
+div#yfl {
+    visibility: hidden;
+    position: absolute;
+    top: 1275px;
+    right:150px;
+}
+
 /*end right side creatures Muldrotha*/
 
 div#commander {

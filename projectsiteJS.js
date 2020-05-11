@@ -525,3 +525,112 @@ function phOff() {
     phImgDiv.style.visibility = "hidden";
 }
 
+swImgDiv = document.getElementById("sw");
+swLi = document.getElementById("swText");
+swLi.addEventListener("mouseover", swOver);
+swLi.addEventListener("mouseout", swOff);
+function swOver() {
+    swImgDiv.style.visibility = "visible";
+}
+function swOff() {
+    swImgDiv.style.visibility = "hidden";
+}
+
+sfImgDiv = document.getElementById("sf");
+sfLi = document.getElementById("sfText");
+sfLi.addEventListener("mouseover", sfOver);
+sfLi.addEventListener("mouseout", sfOff);
+function sfOver() {
+    sfImgDiv.style.visibility = "visible";
+}
+function sfOff() {
+    sfImgDiv.style.visibility = "hidden";
+}
+
+tbdImgDiv = document.getElementById("tbd");
+tbdLi = document.getElementById("tbdText");
+tbdLi.addEventListener("mouseover", tbdOver);
+tbdLi.addEventListener("mouseout", tbdOff);
+function tbdOver() {
+    tbdImgDiv.style.visibility = "visible";
+}
+function tbdOff() {
+    tbdImgDiv.style.visibility = "hidden";
+}
+
+tddImgDiv = document.getElementById("tdd");
+tddLi = document.getElementById("tddText");
+tddLi.addEventListener("mouseover", tddOver);
+tddLi.addEventListener("mouseout", tddOff);
+function tddOver() {
+    tddImgDiv.style.visibility = "visible";
+}
+function tddOff() {
+    tddImgDiv.style.visibility = "hidden";
+}
+
+tssImgDiv = document.getElementById("tss");
+tssLi = document.getElementById("tssText");
+tssLi.addEventListener("mouseover", tssOver);
+tssLi.addEventListener("mouseout", tssOff);
+function tssOver() {
+    tssImgDiv.style.visibility = "visible";
+}
+function tssOff() {
+    tssImgDiv.style.visibility = "hidden";
+}
+
+tcdImgDiv = document.getElementById("tcd");
+tcdLi = document.getElementById("tcdText");
+tcdLi.addEventListener("mouseover", tcdOver);
+tcdLi.addEventListener("mouseout", tcdOff);
+function tcdOver() {
+    tcdImgDiv.style.visibility = "visible";
+}
+function tcdOff() {
+    tcdImgDiv.style.visibility = "hidden";
+}
+
+weImgDiv = document.getElementById("we");
+weLi = document.getElementById("weText");
+weLi.addEventListener("mouseover", weOver);
+weLi.addEventListener("mouseout", weOff);
+function weOver() {
+    weImgDiv.style.visibility = "visible";
+}
+function weOff() {
+    weImgDiv.style.visibility = "hidden";
+}
+
+wsImgDiv = document.getElementById("ws");
+wsLi = document.getElementById("wsText");
+wsLi.addEventListener("mouseover", wsOver);
+wsLi.addEventListener("mouseout", wsOff);
+function wsOver() {
+    wsImgDiv.style.visibility = "visible";
+}
+function wsOff() {
+    wsImgDiv.style.visibility = "hidden";
+}
+
+ytdImgDiv = document.getElementById("ytd");
+ytdLi = document.getElementById("ytdText");
+ytdLi.addEventListener("mouseover", ytdOver);
+ytdLi.addEventListener("mouseout", ytdOff);
+function ytdOver() {
+    ytdImgDiv.style.visibility = "visible";
+}
+function ytdOff() {
+    ytdImgDiv.style.visibility = "hidden";
+}
+
+yflImgDiv = document.getElementById("yfl");
+yflLi = document.getElementById("yflText");
+yflLi.addEventListener("mouseover", yflOver);
+yflLi.addEventListener("mouseout", yflOff);
+function yflOver() {
+    yflImgDiv.style.visibility = "visible";
+}
+function yflOff() {
+    yflImgDiv.style.visibility = "hidden";
+}
