@@ -154,6 +154,7 @@ function gtOff() {
 }
 //end left side creatures Muldrotha//
 //start left side artEnch Muldrotha//
+
 aotpMulImgDiv = document.getElementById("aotpMul");
 aotpMulLi = document.getElementById("aotpMulText");
 aotpMulLi.addEventListener("mouseover", aotpMulOver);
@@ -209,4 +210,82 @@ function eaMulOff() {
     eaMulImgDiv.style.visibility = "hidden";
 }
 
+fofImgDiv = document.getElementById("fof");
+fofLi = document.getElementById("fofText");
+fofLi.addEventListener("mouseover", fofOver);
+fofLi.addEventListener("mouseout", fofOff);
+function fofOver() {
+    fofImgDiv.style.visibility = "visible";
+}
+function fofOff() {
+    fofImgDiv.style.visibility = "hidden";
+}
 
+hoaImgDiv = document.getElementById("hoa");
+hoaLi = document.getElementById("hoaText");
+hoaLi.addEventListener("mouseover", hoaOver);
+hoaLi.addEventListener("mouseout", hoaOff);
+function hoaOver() {
+    hoaImgDiv.style.visibility = "visible";
+}
+function hoaOff() {
+    hoaImgDiv.style.visibility = "hidden";
+}
+
+icthMulImgDiv = document.getElementById("icthMul");
+icthMulLi = document.getElementById("icthMulText");
+icthMulLi.addEventListener("mouseover", icthMulOver);
+icthMulLi.addEventListener("mouseout", icthMulOff);
+function icthMulOver() {
+    icthMulImgDiv.style.visibility = "visible";
+}
+function icthMulOff() {
+    icthMulImgDiv.style.visibility = "hidden";
+}
+
+kheImgDiv = document.getElementById("khe");
+kheLi = document.getElementById("kheText");
+kheLi.addEventListener("mouseover", kheOver);
+kheLi.addEventListener("mouseout", kheOff);
+function kheOver() {
+    kheImgDiv.style.visibility = "visible";
+}
+function kheOff() {
+    kheImgDiv.style.visibility = "hidden";
+}
+
+loaImgDiv = document.getElementById("loa");
+loaLi = document.getElementById("loaText");
+loaLi.addEventListener("mouseover", loaOver);
+loaLi.addEventListener("mouseout", loaOff);
+function loaOver() {
+    loaImgDiv.style.visibility = "visible";
+}
+function loaOff() {
+    loaImgDiv.style.visibility = "hidden";
+}
+
+manaImgDiv = document.getElementById("mana");
+manaLi = document.getElementById("manaText");
+manaLi.addEventListener("mouseover", manaOver);
+manaLi.addEventListener("mouseout", manaOff);
+function manaOver() {
+    manaImgDiv.style.visibility = "visible";
+}
+function manaOff() {
+    manaImgDiv.style.visibility = "hidden";
+}
+
+mcImgDiv = document.getElementById("mc");
+mcLi = document.getElementById("mcText");
+mcLi.addEventListener("mouseover", mcOver);
+mcLi.addEventListener("mouseout", mcOff);
+function mcOver() {
+    mcImgDiv.style.visibility = "visible";
+}
+function mcOff() {
+    mcImgDiv.style.visibility = "hidden";
+}
+
+
+//end left side artEnch Muldrotha//

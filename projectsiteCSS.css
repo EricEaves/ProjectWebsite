@@ -159,6 +159,48 @@ div#eaMul {
     top: 1875px;
 }
 
+div#fof {
+    visibility: hidden;
+    position: absolute;
+    top: 1950px;
+}
+
+div#hoa {
+    visibility: hidden;
+    position: absolute;
+    top: 2000px;
+}
+
+div#icthMul {
+    visibility: hidden;
+    position: absolute;
+    top: 2025px;
+}
+
+div#khe {
+    visibility: hidden;
+    position: absolute;
+    top: 2125px;
+}
+
+div#loa {
+    visibility: hidden;
+    position: absolute;
+    top: 2150px;
+}
+
+div#mana {
+    visibility: hidden;
+    position: absolute;
+    top: 2225px;
+}
+
+div#mc {
+    visibility: hidden;
+    position: absolute;
+    top: 2275px;
+}
+
 
 
 /*end left side artEnch Muldrotha*/
