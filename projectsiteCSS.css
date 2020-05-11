@@ -43,6 +43,7 @@ li {
 }
 
 /*start left side creatures Muldrotha*/
+
 div#muldrotha {
     visibility: hidden;
     position: absolute;
@@ -127,8 +128,11 @@ div#gt {
     position: absolute;
     top: 1375px;
 }
+
 /*end left side creatures Muldrotha*/
+
 /*start left side artEnch Muldrotha*/
+
 div#aotpMul {
     visibility: hidden;
     position: absolute;
@@ -201,11 +205,27 @@ div#mc {
     top: 2275px;
 }
 
-
-
 /*end left side artEnch Muldrotha*/
 
+/*start left side intSorc Muldrotha*/
+div#cof {
+    visibility: hidden;
+    position: absolute;
+    top: 2550px;
+}
 
+div#cr {
+    visibility: hidden;
+    position: absolute;
+    top: 2625px;
+}
+
+div#dt {
+    visibility: hidden;
+    position: absolute;
+    top: 2675px;
+}
+/*end left side intSorc Muldrotha*/
 
 div#commander {
     display: flex;
