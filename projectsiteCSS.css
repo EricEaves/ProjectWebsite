@@ -643,6 +643,14 @@ div#wls {
 
 /*start left side creatures Heliod*/
 
+div#heliod {
+    visibility: hidden;
+    position: absolute;
+    top: 375px;
+    left: 1250px;
+    
+}
+
 /*end left side creatures Heliod*/
 
 /*END HELIOD*/

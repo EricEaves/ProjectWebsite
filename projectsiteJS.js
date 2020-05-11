@@ -969,3 +969,14 @@ function wlsOff() {
 
 //HELIOD START//
 //start left side creatures Heliod//
+
+heliodImgDiv = document.getElementById("heliod");
+heliodLi = document.getElementById("heliodText");
+heliodLi.addEventListener("mouseover", heliodOver);
+heliodLi.addEventListener("mouseout", heliodOff);
+function heliodOver() {
+    heliodImgDiv.style.visibility = "visible";
+}
+function heliodOff() {
+    heliodImgDiv.style.visibility = "hidden";
+}
