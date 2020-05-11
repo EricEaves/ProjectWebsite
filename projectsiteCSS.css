@@ -208,6 +208,7 @@ div#mc {
 /*end left side artEnch Muldrotha*/
 
 /*start left side intSorc Muldrotha*/
+
 div#cof {
     visibility: hidden;
     position: absolute;
@@ -225,7 +226,34 @@ div#dt {
     position: absolute;
     top: 2675px;
 }
+
 /*end left side intSorc Muldrotha*/
+
+/*start left side Planeswalkers Muldrotha*/
+div#adr {
+    visibility: hidden;
+    position: absolute;
+    top: 2925px;
+}
+
+div#ldg {
+    visibility: hidden;
+    position: absolute;
+    top: 2975px;
+}
+
+div#npv {
+    visibility: hidden;
+    position: absolute;
+    top: 3050px;
+}
+
+div#nwstw {
+    visibility: hidden;
+    position: absolute;
+    top: 3125px;
+}
+/*end left side Planeswalkers Muldrotha*/
 
 div#commander {
     display: flex;
