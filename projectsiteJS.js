@@ -769,8 +769,8 @@ function wrOff() {
     wrImgDiv.style.visibility = "hidden";
 }
 //end right side artEnch Muldrotha//
-//start right side intSorc Muldrotha//
 
+//start right side intSorc Muldrotha//
 forImgDiv = document.getElementById("for");
 forLi = document.getElementById("forText");
 forLi.addEventListener("mouseover", forOver);
@@ -791,4 +791,52 @@ function wdOver() {
 }
 function wdOff() {
     wdImgDiv.style.visibility = "hidden";
+}
+//end right side intSorc Muldrotha//
+
+//start right side Planeswalkers Muldrotha//
+onrImgDiv = document.getElementById("onr");
+onrLi = document.getElementById("onrText");
+onrLi.addEventListener("mouseover", onrOver);
+onrLi.addEventListener("mouseout", onrOff);
+function onrOver() {
+    onrImgDiv.style.visibility = "visible";
+}
+function onrOff() {
+    onrImgDiv.style.visibility = "hidden";
+}
+
+tcotImgDiv = document.getElementById("tcot");
+tcotLi = document.getElementById("tcotText");
+tcotLi.addEventListener("mouseover", tcotOver);
+tcotLi.addEventListener("mouseout", tcotOff);
+function tcotOver() {
+    tcotImgDiv.style.visibility = "visible";
+}
+function tcotOff() {
+    tcotImgDiv.style.visibility = "hidden";
+}
+
+vsgImgDiv = document.getElementById("vsg");
+vsgLi = document.getElementById("vsgText");
+vsgLi.addEventListener("mouseover", vsgOver);
+vsgLi.addEventListener("mouseout", vsgOff);
+function vsgOver() {
+    vsgImgDiv.style.visibility = "visible";
+}
+function vsgOff() {
+    vsgImgDiv.style.visibility = "hidden";
+}
+//end right side Planeswalkers Muldrotha//
+
+//start right side lands Muldrotha//
+gpImgDiv = document.getElementById("gp");
+gpLi = document.getElementById("gpText");
+gpLi.addEventListener("mouseover", gpOver);
+gpLi.addEventListener("mouseout", gpOff);
+function gpOver() {
+    gpImgDiv.style.visibility = "visible";
+}
+function gpOff() {
+    gpImgDiv.style.visibility = "hidden";
 }

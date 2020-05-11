@@ -525,6 +525,39 @@ div#wd {
 }
 /*end right side intSorc Muldrotha*/
 
+/*start right side Planeswalkers Muldrotha*/
+div#onr {
+    visibility: hidden;
+    position: absolute;
+    top: 2950px;
+    right: 150px;
+}
+
+div#tcot {
+    visibility: hidden;
+    position: absolute;
+    top: 3000px;
+    right: 150px;
+}
+
+div#vsg {
+    visibility: hidden;
+    position: absolute;
+    top: 3125px;
+    right: 150px;
+}
+/*end right side Planeswalkers Muldrotha*/
+
+/*start right side Lands Muldrotha*/
+div#gp {
+    visibility: hidden;
+    position: absolute;
+    top: 3400px;
+    right: 150px;
+}
+/*end right side Lands Muldrotha*/
+
+
 div#commander {
     display: flex;
     justify-content: space-evenly;
