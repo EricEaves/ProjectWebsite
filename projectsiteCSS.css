@@ -637,6 +637,7 @@ button {
     margin-left: 45%;
     margin-right: 45%;
     margin-top: 5%;
+    visibility: hidden;
 }
 
 @media (max-width: 750px) {
