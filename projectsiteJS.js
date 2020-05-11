@@ -634,3 +634,49 @@ function yflOver() {
 function yflOff() {
     yflImgDiv.style.visibility = "hidden";
 }
+//end right side creatures Muldrotha//
+//start right side artEnch Muldrotha//
+
+mrImgDiv = document.getElementById("mr");
+mrLi = document.getElementById("mrText");
+mrLi.addEventListener("mouseover", mrOver);
+mrLi.addEventListener("mouseout", mrOff);
+function mrOver() {
+    mrImgDiv.style.visibility = "visible";
+}
+function mrOff() {
+    mrImgDiv.style.visibility = "hidden";
+}
+
+ndImgDiv = document.getElementById("nd");
+ndLi = document.getElementById("ndText");
+ndLi.addEventListener("mouseover", ndOver);
+ndLi.addEventListener("mouseout", ndOff);
+function ndOver() {
+    ndImgDiv.style.visibility = "visible";
+}
+function ndOff() {
+    ndImgDiv.style.visibility = "hidden";
+}
+
+ndsImgDiv = document.getElementById("nds");
+ndsLi = document.getElementById("ndsText");
+ndsLi.addEventListener("mouseover", ndsOver);
+ndsLi.addEventListener("mouseout", ndsOff);
+function ndsOver() {
+    ndsImgDiv.style.visibility = "visible";
+}
+function ndsOff() {
+    ndsImgDiv.style.visibility = "hidden";
+}
+
+panImgDiv = document.getElementById("pan");
+panLi = document.getElementById("panText");
+panLi.addEventListener("mouseover", panOver);
+panLi.addEventListener("mouseout", panOff);
+function panOver() {
+    panImgDiv.style.visibility = "visible";
+}
+function panOff() {
+    panImgDiv.style.visibility = "hidden";
+}

@@ -256,7 +256,9 @@ div#nwstw {
 }
 
 /*end left side Planeswalkers Muldrotha*/
+
 /*start left side lands Muldrotha*/
+
 div#sMul {
     visibility: hidden;
     position: absolute;
@@ -328,94 +330,128 @@ div#ggg {
     position: absolute;
     top: 3925px;
 }
+
 /*end left side lands Muldrotha*/
+
 /*start right side creatures Muldrotha*/
 
 div#ic {
     visibility: hidden;
     position: absolute;
     top: 650px;
-    right:150px;
+    right: 150px;
 }
 
 div#ph {
     visibility: hidden;
     position: absolute;
     top: 725px;
-    right:150px;
+    right: 150px;
 }
 
 div#sw {
     visibility: hidden;
     position: absolute;
     top: 775px;
-    right:150px;
+    right: 150px;
 }
 
 div#sf {
     visibility: hidden;
     position: absolute;
     top: 850px;
-    right:150px;
+    right: 150px;
 }
 
 div#tbd {
     visibility: hidden;
     position: absolute;
     top: 900px;
-    right:150px;
+    right: 150px;
 }
 
 div#tdd {
     visibility: hidden;
     position: absolute;
     top: 925px;
-    right:150px;
+    right: 150px;
 }
 
 div#tss {
     visibility: hidden;
     position: absolute;
     top: 975px;
-    right:150px;
+    right: 150px;
 }
 
 div#tcd {
     visibility: hidden;
     position: absolute;
     top: 1025px;
-    right:150px;
+    right: 150px;
 }
 
 div#we {
     visibility: hidden;
     position: absolute;
     top: 1125px;
-    right:150px;
+    right: 150px;
 }
 
 div#ws {
     visibility: hidden;
     position: absolute;
     top: 1175px;
-    right:150px;
+    right: 150px;
 }
 
 div#ytd {
     visibility: hidden;
     position: absolute;
     top: 1225px;
-    right:150px;
+    right: 150px;
 }
 
 div#yfl {
     visibility: hidden;
     position: absolute;
     top: 1275px;
-    right:150px;
+    right: 150px;
 }
 
 /*end right side creatures Muldrotha*/
+
+/*start right side artEnch Muldrotha*/
+
+div#mr {
+    visibility: hidden;
+    position: absolute;
+    top: 1675px;
+    right: 150px;
+}
+
+div#nd {
+    visibility: hidden;
+    position: absolute;
+    top: 1725px;
+    right: 150px;
+}
+
+div#nds {
+    visibility: hidden;
+    position: absolute;
+    top: 1775px;
+    right: 150px;
+}
+
+div#pan {
+    visibility: hidden;
+    position: absolute;
+    top: 1825px;
+    right: 150px;
+}
+
+/*end right side artEnch Muldrotha*/
 
 div#commander {
     display: flex;
