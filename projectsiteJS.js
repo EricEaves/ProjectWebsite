@@ -367,3 +367,38 @@ function nwstwOver() {
 function nwstwOff() {
     nwstwImgDiv.style.visibility = "hidden";
 }
+//end left side Planeswalkers Muldrotha//
+//start left side lands Muldrotha//
+sMulImgDiv = document.getElementById("sMul");
+sMulLi = document.getElementById("sMulText");
+sMulLi.addEventListener("mouseover", sMulOver);
+sMulLi.addEventListener("mouseout", sMulOff);
+function sMulOver() {
+    sMulImgDiv.style.visibility = "visible";
+}
+function sMulOff() {
+    sMulImgDiv.style.visibility = "hidden";
+}
+
+fMulImgDiv = document.getElementById("fMul");
+fMulLi = document.getElementById("fMulText");
+fMulLi.addEventListener("mouseover", fMulOver);
+fMulLi.addEventListener("mouseout", fMulOff);
+function fMulOver() {
+    fMulImgDiv.style.visibility = "visible";
+}
+function fMulOff() {
+    fMulImgDiv.style.visibility = "hidden";
+}
+
+iMulImgDiv = document.getElementById("iMul");
+iMulLi = document.getElementById("iMulText");
+iMulLi.addEventListener("mouseover", iMulOver);
+iMulLi.addEventListener("mouseout", iMulOff);
+function iMulOver() {
+    iMulImgDiv.style.visibility = "visible";
+}
+function iMulOff() {
+    iMulImgDiv.style.visibility = "hidden";
+}
+//end left side lands Muldrotha//
