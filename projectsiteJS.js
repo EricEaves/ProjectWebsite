@@ -680,3 +680,91 @@ function panOver() {
 function panOff() {
     panImgDiv.style.visibility = "hidden";
 }
+
+pdImgDiv = document.getElementById("pd");
+pdLi = document.getElementById("pdText");
+pdLi.addEventListener("mouseover", pdOver);
+pdLi.addEventListener("mouseout", pdOff);
+function pdOver() {
+    pdImgDiv.style.visibility = "visible";
+}
+function pdOff() {
+    pdImgDiv.style.visibility = "hidden";
+}
+
+rrImgDiv = document.getElementById("rr");
+rrLi = document.getElementById("rrText");
+rrLi.addEventListener("mouseover", rrOver);
+rrLi.addEventListener("mouseout", rrOff);
+function rrOver() {
+    rrImgDiv.style.visibility = "visible";
+}
+function rrOff() {
+    rrImgDiv.style.visibility = "hidden";
+}
+
+spImgDiv = document.getElementById("sp");
+spLi = document.getElementById("spText");
+spLi.addEventListener("mouseover", spOver);
+spLi.addEventListener("mouseout", spOff);
+function spOver() {
+    spImgDiv.style.visibility = "visible";
+}
+function spOff() {
+    spImgDiv.style.visibility = "hidden";
+}
+
+srImgDiv = document.getElementById("sr");
+srLi = document.getElementById("srText");
+srLi.addEventListener("mouseover", srOver);
+srLi.addEventListener("mouseout", srOff);
+function srOver() {
+    srImgDiv.style.visibility = "visible";
+}
+function srOff() {
+    srImgDiv.style.visibility = "hidden";
+}
+
+saImgDiv = document.getElementById("sa");
+saLi = document.getElementById("saText");
+saLi.addEventListener("mouseover", saOver);
+saLi.addEventListener("mouseout", saOff);
+function saOver() {
+    saImgDiv.style.visibility = "visible";
+}
+function saOff() {
+    saImgDiv.style.visibility = "hidden";
+}
+
+terImgDiv = document.getElementById("ter");
+terLi = document.getElementById("terText");
+terLi.addEventListener("mouseover", terOver);
+terLi.addEventListener("mouseout", terOff);
+function terOver() {
+    terImgDiv.style.visibility = "visible";
+}
+function terOff() {
+    terImgDiv.style.visibility = "hidden";
+}
+
+wbImgDiv = document.getElementById("wb");
+wbLi = document.getElementById("wbText");
+wbLi.addEventListener("mouseover", wbOver);
+wbLi.addEventListener("mouseout", wbOff);
+function wbOver() {
+    wbImgDiv.style.visibility = "visible";
+}
+function wbOff() {
+    wbImgDiv.style.visibility = "hidden";
+}
+
+wrImgDiv = document.getElementById("wr");
+wrLi = document.getElementById("wrText");
+wrLi.addEventListener("mouseover", wrOver);
+wrLi.addEventListener("mouseout", wrOff);
+function wrOver() {
+    wrImgDiv.style.visibility = "visible";
+}
+function wrOff() {
+    wrImgDiv.style.visibility = "hidden";
+}

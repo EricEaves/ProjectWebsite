@@ -451,6 +451,62 @@ div#pan {
     right: 150px;
 }
 
+div#pd {
+    visibility: hidden;
+    position: absolute;
+    top: 1875px;
+    right: 150px;
+}
+
+div#rr {
+    visibility: hidden;
+    position: absolute;
+    top: 1925px;
+    right: 150px;
+}
+
+div#sp {
+    visibility: hidden;
+    position: absolute;
+    top: 1975px;
+    right: 150px;
+}
+
+div#sr {
+    visibility: hidden;
+    position: absolute;
+    top: 2025px;
+    right: 150px;
+}
+
+div#sa {
+    visibility: hidden;
+    position: absolute;
+    top: 2125px;
+    right: 150px;
+}
+
+div#ter {
+    visibility: hidden;
+    position: absolute;
+    top: 2150px;
+    right: 150px;
+}
+
+div#wb {
+    visibility: hidden;
+    position: absolute;
+    top: 2200px;
+    right: 150px;
+}
+
+div#wr {
+    visibility: hidden;
+    position: absolute;
+    top: 2250px;
+    right: 150px;
+}
+
 /*end right side artEnch Muldrotha*/
 
 div#commander {
