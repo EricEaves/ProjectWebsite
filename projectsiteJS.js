@@ -768,3 +768,27 @@ function wrOver() {
 function wrOff() {
     wrImgDiv.style.visibility = "hidden";
 }
+//end right side artEnch Muldrotha//
+//start right side intSorc Muldrotha//
+
+forImgDiv = document.getElementById("for");
+forLi = document.getElementById("forText");
+forLi.addEventListener("mouseover", forOver);
+forLi.addEventListener("mouseout", forOff);
+function forOver() {
+    forImgDiv.style.visibility = "visible";
+}
+function forOff() {
+    forImgDiv.style.visibility = "hidden";
+}
+
+wdImgDiv = document.getElementById("wd");
+wdLi = document.getElementById("wdText");
+wdLi.addEventListener("mouseover", wdOver);
+wdLi.addEventListener("mouseout", wdOff);
+function wdOver() {
+    wdImgDiv.style.visibility = "visible";
+}
+function wdOff() {
+    wdImgDiv.style.visibility = "hidden";
+}

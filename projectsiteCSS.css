@@ -509,6 +509,22 @@ div#wr {
 
 /*end right side artEnch Muldrotha*/
 
+/*start right side intSorc Muldrotha*/
+div#for {
+    visibility: hidden;
+    position: absolute;
+    top: 2550px;
+    right: 150px;
+}
+
+div#wd {
+    visibility: hidden;
+    position: absolute;
+    top: 2625px;
+    right: 150px;
+}
+/*end right side intSorc Muldrotha*/
+
 div#commander {
     display: flex;
     justify-content: space-evenly;
