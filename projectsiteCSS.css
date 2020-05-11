@@ -42,6 +42,8 @@ li {
     font-size: 1.75em;
 }
 
+/*START MULDROTHA*/
+
 /*start left side creatures Muldrotha*/
 
 div#muldrotha {
@@ -555,8 +557,96 @@ div#gp {
     top: 3400px;
     right: 150px;
 }
+
+div#jp {
+    visibility: hidden;
+    position: absolute;
+    top: 3425px;
+    right: 150px;
+}
+
+div#jh {
+    visibility: hidden;
+    position: absolute;
+    top: 3475px;
+    right: 150px;
+}
+
+div#jir {
+    visibility: hidden;
+    position: absolute;
+    top: 3550px;
+    right: 150px;
+}
+
+div#lf {
+    visibility: hidden;
+    position: absolute;
+    top: 3575px;
+    right: 150px;
+}
+
+div#ml {
+    visibility: hidden;
+    position: absolute;
+    top: 3625px;
+    right: 150px;
+}
+
+div#op {
+    visibility: hidden;
+    position: absolute;
+    top: 3725px;
+    right: 150px;
+}
+
+div#tm {
+    visibility: hidden;
+    position: absolute;
+    top: 3775px;
+    right: 150px;
+}
+
+div#te {
+    visibility: hidden;
+    position: absolute;
+    top: 3800px;
+    right: 150px;
+}
+
+div#twf {
+    visibility: hidden;
+    position: absolute;
+    top: 3825px;
+    right: 150px;
+}
+
+div#wl {
+    visibility: hidden;
+    position: absolute;
+    top: 3875px;
+    right: 150px;
+}
+
+div#wls {
+    visibility: hidden;
+    position: absolute;
+    top: 3900px;
+    right: 150px;
+}
 /*end right side Lands Muldrotha*/
 
+/*END MULDROTHA*/
+/*END MULDROTHA*/
+
+/*HELIOD START*/
+
+/*start left side creatures Heliod*/
+
+/*end left side creatures Heliod*/
+
+/*END HELIOD*/
+/*END HELIOD*/
 
 div#commander {
     display: flex;

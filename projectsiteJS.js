@@ -1,3 +1,4 @@
+//MULDROTHA START//
 mulImgDiv = document.getElementById("muldrotha");
 mulLi = document.getElementById("muldrothaText");
 mulLi.addEventListener("mouseover", mulOver);
@@ -841,3 +842,130 @@ function gpOff() {
     gpImgDiv.style.visibility = "hidden";
 }
 
+jpImgDiv = document.getElementById("jp");
+jpLi = document.getElementById("jpText");
+jpLi.addEventListener("mouseover", jpOver);
+jpLi.addEventListener("mouseout", jpOff);
+function jpOver() {
+    jpImgDiv.style.visibility = "visible";
+}
+function jpOff() {
+    jpImgDiv.style.visibility = "hidden";
+}
+
+jhImgDiv = document.getElementById("jh");
+jhLi = document.getElementById("jhText");
+jhLi.addEventListener("mouseover", jhOver);
+jhLi.addEventListener("mouseout", jhOff);
+function jhOver() {
+    jhImgDiv.style.visibility = "visible";
+}
+function jhOff() {
+    jhImgDiv.style.visibility = "hidden";
+}
+
+jirImgDiv = document.getElementById("jir");
+jirLi = document.getElementById("jirText");
+jirLi.addEventListener("mouseover", jirOver);
+jirLi.addEventListener("mouseout", jirOff);
+function jirOver() {
+    jirImgDiv.style.visibility = "visible";
+}
+function jirOff() {
+    jirImgDiv.style.visibility = "hidden";
+}
+
+lfImgDiv = document.getElementById("lf");
+lfLi = document.getElementById("lfText");
+lfLi.addEventListener("mouseover", lfOver);
+lfLi.addEventListener("mouseout", lfOff);
+function lfOver() {
+    lfImgDiv.style.visibility = "visible";
+}
+function lfOff() {
+    lfImgDiv.style.visibility = "hidden";
+}
+
+mlImgDiv = document.getElementById("ml");
+mlLi = document.getElementById("mlText");
+mlLi.addEventListener("mouseover", mlOver);
+mlLi.addEventListener("mouseout", mlOff);
+function mlOver() {
+    mlImgDiv.style.visibility = "visible";
+}
+function mlOff() {
+    mlImgDiv.style.visibility = "hidden";
+}
+
+opImgDiv = document.getElementById("op");
+opLi = document.getElementById("opText");
+opLi.addEventListener("mouseover", opOver);
+opLi.addEventListener("mouseout", opOff);
+function opOver() {
+    opImgDiv.style.visibility = "visible";
+}
+function opOff() {
+    opImgDiv.style.visibility = "hidden";
+}
+
+tmImgDiv = document.getElementById("tm");
+tmLi = document.getElementById("tmText");
+tmLi.addEventListener("mouseover", tmOver);
+tmLi.addEventListener("mouseout", tmOff);
+function tmOver() {
+    tmImgDiv.style.visibility = "visible";
+}
+function tmOff() {
+    tmImgDiv.style.visibility = "hidden";
+}
+
+teImgDiv = document.getElementById("te");
+teLi = document.getElementById("teText");
+teLi.addEventListener("mouseover", teOver);
+teLi.addEventListener("mouseout", teOff);
+function teOver() {
+    teImgDiv.style.visibility = "visible";
+}
+function teOff() {
+    teImgDiv.style.visibility = "hidden";
+}
+
+twfImgDiv = document.getElementById("twf");
+twfLi = document.getElementById("twfText");
+twfLi.addEventListener("mouseover", twfOver);
+twfLi.addEventListener("mouseout", twfOff);
+function twfOver() {
+    twfImgDiv.style.visibility = "visible";
+}
+function twfOff() {
+    twfImgDiv.style.visibility = "hidden";
+}
+
+wlImgDiv = document.getElementById("wl");
+wlLi = document.getElementById("wlText");
+wlLi.addEventListener("mouseover", wlOver);
+wlLi.addEventListener("mouseout", wlOff);
+function wlOver() {
+    wlImgDiv.style.visibility = "visible";
+}
+function wlOff() {
+    wlImgDiv.style.visibility = "hidden";
+}
+
+wlsImgDiv = document.getElementById("wls");
+wlsLi = document.getElementById("wlsText");
+wlsLi.addEventListener("mouseover", wlsOver);
+wlsLi.addEventListener("mouseout", wlsOff);
+function wlsOver() {
+    wlsImgDiv.style.visibility = "visible";
+}
+function wlsOff() {
+    wlsImgDiv.style.visibility = "hidden";
+}
+//end right side lands Muldrotha//
+
+//END MULDROTHA//
+//END MULDROTHA//
+
+//HELIOD START//
+//start left side creatures Heliod//
