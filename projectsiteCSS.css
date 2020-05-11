@@ -329,6 +329,23 @@ div#ggg {
     top: 3925px;
 }
 /*end left side lands Muldrotha*/
+/*start right side creatures Muldrotha*/
+
+div#ic {
+    visibility: hidden;
+    position: absolute;
+    top: 650px;
+    right:150px;
+}
+
+div#ph {
+    visibility: hidden;
+    position: absolute;
+    top: 725px;
+    right:150px;
+}
+
+/*end right side creatures Muldrotha*/
 
 div#commander {
     display: flex;

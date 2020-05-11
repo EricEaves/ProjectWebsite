@@ -501,3 +501,27 @@ function gggOff() {
     gggImgDiv.style.visibility = "hidden";
 }
 //end left side lands Muldrotha//
+//start right side creatures Muldrotha//
+
+icImgDiv = document.getElementById("ic");
+icLi = document.getElementById("icText");
+icLi.addEventListener("mouseover", icOver);
+icLi.addEventListener("mouseout", icOff);
+function icOver() {
+    icImgDiv.style.visibility = "visible";
+}
+function icOff() {
+    icImgDiv.style.visibility = "hidden";
+}
+
+phImgDiv = document.getElementById("ph");
+phLi = document.getElementById("phText");
+phLi.addEventListener("mouseover", phOver);
+phLi.addEventListener("mouseout", phOff);
+function phOver() {
+    phImgDiv.style.visibility = "visible";
+}
+function phOff() {
+    phImgDiv.style.visibility = "hidden";
+}
+
