@@ -401,4 +401,103 @@ function iMulOver() {
 function iMulOff() {
     iMulImgDiv.style.visibility = "hidden";
 }
+
+bpImgDiv = document.getElementById("bp");
+bpLi = document.getElementById("bpText");
+bpLi.addEventListener("mouseover", bpOver);
+bpLi.addEventListener("mouseout", bpOff);
+function bpOver() {
+    bpImgDiv.style.visibility = "visible";
+}
+function bpOff() {
+    bpImgDiv.style.visibility = "hidden";
+}
+
+bwImgDiv = document.getElementById("bw");
+bwLi = document.getElementById("bwText");
+bwLi.addEventListener("mouseover", bwOver);
+bwLi.addEventListener("mouseout", bwOff);
+function bwOver() {
+    bwImgDiv.style.visibility = "visible";
+}
+function bwOff() {
+    bwImgDiv.style.visibility = "hidden";
+}
+
+cotImgDiv = document.getElementById("cot");
+cotLi = document.getElementById("cotText");
+cotLi.addEventListener("mouseover", cotOver);
+cotLi.addEventListener("mouseout", cotOff);
+function cotOver() {
+    cotImgDiv.style.visibility = "visible";
+}
+function cotOff() {
+    cotImgDiv.style.visibility = "hidden";
+}
+
+ctImgDiv = document.getElementById("ct");
+ctLi = document.getElementById("ctText");
+ctLi.addEventListener("mouseover", ctOver);
+ctLi.addEventListener("mouseout", ctOff);
+function ctOver() {
+    ctImgDiv.style.visibility = "visible";
+}
+function ctOff() {
+    ctImgDiv.style.visibility = "hidden";
+}
+
+dbImgDiv = document.getElementById("db");
+dbLi = document.getElementById("dbText");
+dbLi.addEventListener("mouseover", dbOver);
+dbLi.addEventListener("mouseout", dbOff);
+function dbOver() {
+    dbImgDiv.style.visibility = "visible";
+}
+function dbOff() {
+    dbImgDiv.style.visibility = "hidden";
+}
+
+epImgDiv = document.getElementById("ep");
+epLi = document.getElementById("epText");
+epLi.addEventListener("mouseover", epOver);
+epLi.addEventListener("mouseout", epOff);
+function epOver() {
+    epImgDiv.style.visibility = "visible";
+}
+function epOff() {
+    epImgDiv.style.visibility = "hidden";
+}
+
+fotdImgDiv = document.getElementById("fotd");
+fotdLi = document.getElementById("fotdText");
+fotdLi.addEventListener("mouseover", fotdOver);
+fotdLi.addEventListener("mouseout", fotdOff);
+function fotdOver() {
+    fotdImgDiv.style.visibility = "visible";
+}
+function fotdOff() {
+    fotdImgDiv.style.visibility = "hidden";
+}
+
+foImgDiv = document.getElementById("fo");
+foLi = document.getElementById("foText");
+foLi.addEventListener("mouseover", foOver);
+foLi.addEventListener("mouseout", foOff);
+function foOver() {
+    foImgDiv.style.visibility = "visible";
+}
+function foOff() {
+    foImgDiv.style.visibility = "hidden";
+}
+
+gggImgDiv = document.getElementById("ggg");
+gggLi = document.getElementById("gggText");
+gggLi.addEventListener("mouseover", gggOver);
+gggLi.addEventListener("mouseout", gggOff);
+function gggOver() {
+    gggImgDiv.style.visibility = "visible";
+}
+function gggOff() {
+    gggImgDiv.style.visibility = "hidden";
+}
 //end left side lands Muldrotha//

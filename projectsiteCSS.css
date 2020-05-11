@@ -274,6 +274,60 @@ div#iMul {
     position: absolute;
     top: 3425px;
 }
+
+div#bp {
+    visibility: hidden;
+    position: absolute;
+    top: 3550px;
+}
+
+div#bw {
+    visibility: hidden;
+    position: absolute;
+    top: 3575px;
+}
+
+div#cot {
+    visibility: hidden;
+    position: absolute;
+    top: 3600px;
+}
+
+div#ct {
+    visibility: hidden;
+    position: absolute;
+    top: 3650px;
+}
+
+div#db {
+    visibility: hidden;
+    position: absolute;
+    top: 3675px;
+}
+
+div#ep {
+    visibility: hidden;
+    position: absolute;
+    top: 3775px;
+}
+
+div#fotd {
+    visibility: hidden;
+    position: absolute;
+    top: 3800px;
+}
+
+div#fo {
+    visibility: hidden;
+    position: absolute;
+    top: 3900px;
+}
+
+div#ggg {
+    visibility: hidden;
+    position: absolute;
+    top: 3925px;
+}
 /*end left side lands Muldrotha*/
 
 div#commander {
